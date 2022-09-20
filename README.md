@@ -1,4 +1,4 @@
-# [Név]
+# [Északi_Dániel]
 
 ## Hogyan kezdj neki?
 
