@@ -4,9 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>BMI</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    WORKING....
+    <div class="container">
+    <section class="bmi">
+        <div class="ertekek">
+            <div class="magassag">
+                <h1>Írja be cm-ben számított testmagasságát (cipő nélkül mérve)</h1>
+                <input type="text" id="magassag">cm
+            </div>
+            <div class="suly">
+                <h1>Írja be kg-ban számított testsúlyát (cipő nélkül mérve)</h1>
+                <input type="text" id="suly">kg
+            </div>
+            <button class="calculate" onclick="szamitas()">Számítás</button>
+        </div>
+
+        <div class="calculated">
+            <h1>Az ön bmi értéke:</h1>
+            <span id="eredmeny">0</span>
+        </div>
+
+    </section>
+</div>
+    <script src="script.js"></script>
 </body>
 </html>
